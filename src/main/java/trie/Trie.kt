@@ -33,7 +33,7 @@ class Trie<T, V>() {
         return search(*values) != null
     }
 
-    inline operator fun get(vararg key: T) = search(*key)?.payload
+     operator fun get(vararg key: T) = search(*key)?.payload
 
     fun search(vararg segments: T): Node<T, V>? {
         var children = root
