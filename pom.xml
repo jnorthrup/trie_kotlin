@@ -8,7 +8,6 @@
         <groupId>columnar</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <groupId>com.kennycason</groupId>
     <artifactId>trie</artifactId>
     <!--credits to the above parent github project-->
     <dependencies>
